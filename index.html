@@ -1,362 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Loyalty Rewards</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyalty Rewards</title>
 
-        <!-- font awesome cdn link  -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-        <!-- custom css file link  -->
-        <link rel="stylesheet" href="assets/css/style.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-        <!-- custom js file link  -->
-        <script src="js/script.js" defer></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <!-- header section starts  -->
+    <!-- header section starts  -->
 
-        <header class="header">
+    <header class="header">
 
-            <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
 
-            <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"><span>M</span>y
-                <span>R</span>ewards
-            </a>
+        <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"><span>M</span>y
+            <span>R</span>ewards
+        </a>
 
-            <nav class="navbar">
-                <a data-aos="zoom-in-left" data-aos-delay="300" href="#">home</a>
-                <a data-aos="zoom-in-left" data-aos-delay="450" href="#">about us</a>
-                <a data-aos="zoom-in-left" data-aos-delay="750" href="#">services</a>
-                <a data-aos="zoom-in-left" data-aos-delay="600" href="#">destination</a>
-                <a data-aos="zoom-in-left" data-aos-delay="900" href="#">gallery</a>
-                <a data-aos="zoom-in-left" data-aos-delay="1150" href="#">blogs</a>
-            </nav>
+        <nav class="navbar">
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#">Home/Dashboard</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#">Profile</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#">Loyalty Points</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="#">History</a>
+            <a data-aos="zoom-in-left" data-aos-delay="900" href="#">Support</a>
+        </nav>
+        <a data-aos="zoom-in-left" data-aos-delay="1300" href="#book-form" class="btn">Login</a>
 
-            <a data-aos="zoom-in-left" data-aos-delay="1300" href="#book-form" class="btn">book now</a>
+    </header>
 
-        </header>
+    <section class="home" id="home">
 
-        <!-- header section ends -->
+        <div class="content">
+            <span data-aos="fade-up" data-aos-delay="150">Welcome Back</span>
+            <h3 data-aos="fade-up" data-aos-delay="300">Unlock Exclusive Rewards</h3>
+            <p data-aos="fade-up" data-aos-delay="450">Your loyalty journey starts here. Keep track of your points,
+                discover exciting deals, and redeem rewards to enhance your experience with us!</p>
+            <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn">Explore Now</a>
+        </div>
 
-        <!-- home section starts  -->
 
-        <section class="home" id="home">
+    </section>
 
-            <div class="content">
-                <span data-aos="fade-up" data-aos-delay="150">Let's Start</span>
-                <h3 data-aos="fade-up" data-aos-delay="300">World Tour With Us</h3>
-                <p data-aos="fade-up" data-aos-delay="450">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Necessitatibus quia illum quod perspiciatis harum</p>
-                <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn">book now</a>
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+            <video src="assets/images/about.mp4" muted autoplay loop class="video"></video>
+        </div>
+
+        <div class="content" data-aos="fade-left" data-aos-delay="600">
+            <span>About Us</span>
+            <h3>Your Loyalty, Our Priority</h3>
+            <p>We're dedicated to rewarding your loyalty with exclusive offers and personalized experiences. Keep track
+                of your points, unlock exciting rewards, and enjoy the perks of being with us!</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+
+    </section>
+
+    <section class="destination" id="destination">
+
+        <div class="heading">
+            <span>Our Rewards</span>
+            <h1>Start Shopping Now</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <div class="image">
+                    <img src="assets/images/cooking.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Cooking Class</h2>
+                    <p>Unlock culinary skills with a fun and interactive cooking class.</p>
+                    <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
+                </div>
             </div>
 
-        </section>
-
-        <!-- home section ends -->
-
-        <!-- booking form section starts  -->
-
-        <section class="book-form" id="book-form">
-
-            <form action="">
-                <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
-                    <span>Where?</span>
-                    <input type="text" placeholder="place name" value="">
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <div class="image">
+                    <img src="assets/images/stanley.jpg" alt="">
                 </div>
-                <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
-                    <span>When looking for ?</span>
-                    <input type="date" value="">
+                <div class="content">
+                    <h2>Stanley</h2>
+                    <p>Get your hands on a premium Stanley product for your daily adventures.</p>
+                    <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
                 </div>
-                <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
-                    <span>Total members?</span>
-                    <input type="number" placeholder="number of travelers" value="">
-                </div>
-                <input data-aos="zoom-in" data-aos-delay="600" type="submit" value="find now" class="btn">
-            </form>
-
-        </section>
-
-        <!-- booking form section ends -->
-
-        <!-- about section starts  -->
-
-        <section class="about" id="about">
-
-            <div class="video-container" data-aos="fade-right" data-aos-delay="300">
-                <video src="assets/images/about.mp4" muted autoplay loop class="video"></video>
             </div>
 
-            <div class="content" data-aos="fade-left" data-aos-delay="600">
-                <span>Who we are ?</span>
-                <h3>Travel in style</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit repellat error deserunt nam
-                    aperiam
-                    odit libero quos provident. Nostrum?</p>
-                <a href="#" class="btn">read more</a>
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <div class="image">
+                    <img src="assets/images/spa.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Spa Day</h2>
+                    <p>Relax and unwind with a luxurious spa day experience.</p>
+                    <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
+                </div>
             </div>
 
-        </section>
-
-        <!-- about section ends -->
-
-
-
-
-        <!-- services section ends -->
-
-        <!-- destination section starts  -->
-
-        <section class="destination" id="destination">
-
-            <div class="heading">
-                <span>Our Rewards</span>
-                <h1>Start Shopping Now</h1>
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <div class="image">
+                    <img src="assets/images/getaway.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Weekend Getaway</h2>
+                    <p>Enjoy a refreshing weekend getaway to recharge and explore new places.</p>
+                    <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
+                </div>
             </div>
 
-            <div class="box-container">
-
-                <div class="box" data-aos="fade-up" data-aos-delay="150">
-                    <div class="image">
-                        <img src="assets/images/cooking.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h2>Cooking Class</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                        <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
-                    </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="750">
+                <div class="image">
+                    <img src="assets/images/blanket.jpg" alt="">
                 </div>
-
-                <div class="box" data-aos="fade-up" data-aos-delay="300">
-                    <div class="image">
-                        <img src="assets/images/stanley.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h2>Stanley</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                        <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
-                    </div>
+                <div class="content">
+                    <h2>Cozy Blanket</h2>
+                    <p>Snuggle up in comfort with a soft and cozy blanket.</p>
+                    <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
                 </div>
-
-                <div class="box" data-aos="fade-up" data-aos-delay="450">
-                    <div class="image">
-                        <img src="assets/images/spa.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h2>Spa Day</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                        <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="box" data-aos="fade-up" data-aos-delay="600">
-                    <div class="image">
-                        <img src="assets/images/getaway.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h2>Weekend Getaway</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                        <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="box" data-aos="fade-up" data-aos-delay="750">
-                    <div class="image">
-                        <img src="assets/images/blanket.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h2>Cozy Blanket</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                        <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="box" data-aos="fade-up" data-aos-delay="900">
-                    <div class="image">
-                        <img src="assets/images/starbucks.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h2>Starbucks Gift Card</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                        <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="box" data-aos="fade-up" data-aos-delay="1150">
-                    <div class="image">
-                        <img src="assets/images/pillow.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h2>Neck Pillow</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                        <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="box" data-aos="fade-up" data-aos-delay="1300">
-                    <div class="image">
-                        <img src="assets/images/class.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h2>Cooking Class</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                        <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
-                    </div>
-                </div>
-
             </div>
 
-        </section>
-
-        <!-- destination section ends -->
-
-        <!-- gallery section starts  -->
-
-        <section class="gallery" id="gallery">
-
-            <div class="heading">
-                <span>our gallery</span>
-                <h1>Memories last forever</h1>
+            <div class="box" data-aos="fade-up" data-aos-delay="900">
+                <div class="image">
+                    <img src="assets/images/starbucks.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Starbucks Gift Card</h2>
+                    <p>Savor your favorite coffee with a Starbucks gift card.</p>
+                    <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
+                </div>
             </div>
 
-            <div class="box-container">
-
-                <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
-                    <img src="assets/images/gallery-img-1.png" alt="">
-                    <span>travel spot</span>
-                    <h3>iceland</h3>
+            <div class="box" data-aos="fade-up" data-aos-delay="1150">
+                <div class="image">
+                    <img src="assets/images/pillow.jpg" alt="">
                 </div>
-
-                <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
-                    <img src="assets/images/gallery-img-2.png" alt="">
-                    <span>travel spot</span>
-                    <h3>greenland</h3>
+                <div class="content">
+                    <h2>Neck Pillow</h2>
+                    <p>Travel in comfort with a plush neck pillow for ultimate support.</p>
+                    <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
                 </div>
-
-                <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
-                    <img src="assets/images/gallery-img-3.png" alt="">
-                    <span>travel spot</span>
-                    <h3>alaska</h3>
-                </div>
-
-                <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
-                    <img src="assets/images/gallery-img-4.png" alt="">
-                    <span>travel spot</span>
-                    <h3>thailand</h3>
-                </div>
-
-                <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
-                    <img src="assets/images/gallery-img-5.png" alt="">
-                    <span>travel spot</span>
-                    <h3>brazil</h3>
-                </div>
-
-                <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
-                    <img src="assets/images/gallery-img-6.png" alt="">
-                    <span>travel spot</span>
-                    <h3>maldive</h3>
-                </div>
-
-                <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
-                    <img src="assets/images/gallery-img-7.png" alt="">
-                    <span>travel spot</span>
-                    <h3>iceland</h3>
-                </div>
-
-                <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
-                    <img src="assets/images/gallery-img-8.png" alt="">
-                    <span>travel spot</span>
-                    <h3>alaska</h3>
-                </div>
-
-                <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
-                    <img src="assets/images/gallery-img-9.png" alt="">
-                    <span>travel spot</span>
-                    <h3>maldive</h3>
-                </div>
-
             </div>
 
-        </section>
-
-        <!-- gallery section ends -->
-
-        <!-- review section starts  -->
-
-
-        <!-- blogs section ends -->
-
-        <!-- footer section starts  -->
-
-        <section class="footer">
-
-            <div class="box-container">
-
-                <div class="box" data-aos="fade-up" data-aos-delay="150">
-                    <a href="#" class="logo"> <span>M</span>y <span>R</span>ewards </a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ad?</p>
-                    <div class="share">
-                        <a href="#" class="fab fa-facebook-f"></a>
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-instagram"></a>
-                        <a href="#" class="fab fa-linkedin"></a>
-                    </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="1300">
+                <div class="image">
+                    <img src="assets/images/class.jpg" alt="">
                 </div>
-
-                <div class="box" data-aos="fade-up" data-aos-delay="300">
-                    <h3>quick links</h3>
-                    <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
-                    <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
-                    <a href="#destination" class="links"> <i class="fas fa-arrow-right"></i> destination </a>
-                    <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> services </a>
-                    <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i> gallery </a>
-                    <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+                <div class="content">
+                    <h2>Cooking Class</h2>
+                    <p>Experience a hands-on cooking class and create delicious meals.</p>
+                    <a href="#">Redeem Now <i class="fas fa-angle-right"></i></a>
                 </div>
-
-                <div class="box" data-aos="fade-up" data-aos-delay="450">
-                    <h3>contact info</h3>
-                    <p> <i class="fas fa-map"></i> Atlanta, GA </p>
-                    <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
-                    <p> <i class="fas fa-envelope"></i> loyaltyprogram@gmail.com </p>
-                    <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
-                </div>
-
-                <div class="box" data-aos="fade-up" data-aos-delay="600">
-                    <h3>newsletter</h3>
-                    <p>subscribe for latest updates</p>
-                    <form action="">
-                        <input type="email" name="" placeholder="enter your email" class="email" id="">
-                        <input type="submit" value="subscribe" class="btn">
-                    </form>
-                </div>
-
             </div>
 
-        </section>
-
-        <!-- footer section ends -->
+        </div>
 
 
+    </section>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- destination section ends -->
 
-        <script>
+    <!-- gallery section starts  -->
 
-            AOS.init({
-                duration: 800,
-                offset: 150,
-            });
+    <section class="gallery" id="gallery">
 
-        </script>
+        <div class="heading">
+            <span>our gallery</span>
+            <h1>Memories last forever</h1>
+        </div>
 
-    </body>
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="assets/images/gallery-img-1.png" alt="">
+                <span>travel spot</span>
+                <h3>iceland</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="assets/images/gallery-img-2.png" alt="">
+                <span>travel spot</span>
+                <h3>greenland</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="assets/images/gallery-img-3.png" alt="">
+                <span>travel spot</span>
+                <h3>alaska</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="assets/images/gallery-img-4.png" alt="">
+                <span>travel spot</span>
+                <h3>thailand</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="assets/images/gallery-img-5.png" alt="">
+                <span>travel spot</span>
+                <h3>brazil</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="assets/images/gallery-img-6.png" alt="">
+                <span>travel spot</span>
+                <h3>maldive</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="assets/images/gallery-img-7.png" alt="">
+                <span>travel spot</span>
+                <h3>iceland</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="assets/images/gallery-img-8.png" alt="">
+                <span>travel spot</span>
+                <h3>alaska</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="assets/images/gallery-img-9.png" alt="">
+                <span>travel spot</span>
+                <h3>maldive</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up" data-aos-delay="150">
+                <a href="#" class="logo"> <span>M</span>y <span>R</span>ewards </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ad?</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+                <h3>quick links</h3>
+                <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
+                <a href="#destination" class="links"> <i class="fas fa-arrow-right"></i> destination </a>
+                <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> services </a>
+                <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i> gallery </a>
+                <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="450">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-map"></i> Atlanta, GA </p>
+                <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+                <p> <i class="fas fa-envelope"></i> loyaltyprogram@gmail.com </p>
+                <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
+            </div>
+
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" class="email" id="">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration: 800,
+            offset: 150,
+        });
+
+    </script>
+    <script src="script.js"></script>
+
+</body>
 
 </html>
