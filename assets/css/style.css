@@ -16,7 +16,6 @@
 
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 9rem;
 }
@@ -167,6 +166,55 @@ section {
 }
 
 .home .content p {
+    max-width: 60rem;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: #f8f9fc;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.profile {
+    margin: 0 auto;
+    margin-top: 9rem;
+    width: 90%;
+    border-radius: 1rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/home-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/profile_header.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 80vh;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.profile .content {
+    text-align: center;
+}
+
+.profile .content span {
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: 0.1rem #fff;
+    font-size: 4vw;
+    display: block;
+}
+
+.profile .content h3 {
+    font-size: 6vw;
+    color: #fff;
+}
+
+.profile .content p {
     max-width: 60rem;
     margin: 1rem auto;
     font-size: 1.4rem;
@@ -747,6 +795,155 @@ section {
 
 .credit span {
     color: #436959;
+}
+
+.profile-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ececec;
+    padding-bottom: 20px;
+}
+
+.profile-header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.edit-btn,
+.update-btn,
+.redeem-btn {
+    background-color: #436959;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.edit-btn:hover,
+.update-btn:hover,
+.redeem-btn:hover {
+    background-color: #365a4e;
+}
+
+.profile-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-details p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.loyalty-status {
+    margin-top: 30px;
+    border-top: 2px solid #ececec;
+    padding-top: 20px;
+}
+
+.loyalty-status h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.points-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.points-container p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.recent-activity {
+    margin-top: 30px;
+}
+
+.recent-activity h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.recent-activity ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-activity ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.recent-activity ul li i {
+    color: #4caf50;
+    margin-right: 10px;
+}
+
+.available-rewards {
+    margin-top: 30px;
+    border-top: 2px solid #ececec;
+    padding-top: 20px;
+}
+
+.available-rewards h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.reward-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.reward-box h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.reward-box p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
 }
 
 /*----responsive---------*/
